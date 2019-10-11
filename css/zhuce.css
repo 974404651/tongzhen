@@ -1,0 +1,298 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width:100%;
+	height: 61px;
+	background-color: #575151;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+#ul1{
+	width: 862px;
+	height: 61px;
+	margin-left: 122px;
+	float: left;
+	margin-bottom:0;
+}
+#ul1 a{
+	color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+#ul1 a:hover{
+	text-decoration: underline;
+}
+#ul1 li{
+    height: 61px;
+    float: left;
+    list-style: none;
+    line-height: 61px;
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 14px;
+
+}
+#ul1 li:first-child{
+	
+	margin-right: 37px;
+	line-height: 61px;
+	
+}
+#ul1 img{
+	width: 100px;
+	height: 30px;
+}
+#ul2{
+	width: 243px;
+	height: 61px;
+	float: left;
+	list-style: none;
+	margin-bottom:0;
+}
+#ul2 li{
+	float: right;
+	line-height: 61px;
+}
+#ul2 img{
+	width:20px;
+	height: 20px;
+	margin-left: 15px;
+	margin-right:15px;
+}
+.denglu{
+	width: 1349px;
+	height: 440px;
+	padding: 100px 0px;
+	margin-top: 61px;
+	background-color: #f7f7f7;
+}
+.denglu1{
+	width: 320px;
+	height: 348px;
+	margin: auto;
+	padding: 30px 40px;
+}
+.denglu h4{
+    width: 320px;
+    font-size: 18px;
+    color: #333333;
+    margin: 0px 0px 24px;
+    text-align: center;
+ }
+.denglu1a{
+	width: 320px;
+	height: 184px;
+	margin: 0 auto;
+
+}
+.zhanghao{
+	display: block;
+	width: 286px;
+	height: 40px;
+	padding: 0 15px;
+	color: #000000;
+}
+.mima{
+	width: 286px;
+	height: 40px;
+	padding: 0 15px;
+	color: #ffffff;
+	margin:20px 23px 20px 0px;
+	display: block;
+	color: #000000;
+
+}
+.a1{
+	width: 320px;
+	height: 20px;
+	font-size: 12px;
+	color: #616161;
+	margin-bottom: 10px;
+}
+#zhuce{
+	font-size: 12px;
+	color: #777777;
+	float: left;	
+}
+#wangji{
+	font-size: 12px;
+	color: #777777;
+	float: right;
+}
+.deng{
+	display: block;
+	width: 280px;
+	height: 14px;
+	padding: 10px 20px;
+	background-color: #000000;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	line-height: 14px;
+}
+.denglu1 a{
+	text-decoration: none;
+}
+.deng1{
+	width: 280px;
+	height: 14px;
+	padding: 10px 20px;
+	margin: 20px auto ;
+	background-color: white;
+	text-align: center;
+	font-size: 14px;
+	color: #333333;
+	line-height: 14px;
+	border: 1px solid #000000;
+}
+.denglu1 span{
+	display: block;
+	width: 84px;
+	height: 20px;
+	font-size: 12px;
+	color: #616161;
+	margin: 25px auto 0px ;
+}
+.qita{
+	width: 320px;
+	height: 46px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.qita a{
+    width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.7;
+	margin: 0 5px;
+}
+.qita a:hover{
+	background-color: blue;
+}
+.qita img{
+	width: 25px;
+	height: 25px;
+}
+
+
+
+.foot{
+	width:100%;
+	height: 286px;
+	padding: 0px 81px;
+}
+.foot1{
+	width: 1117px;
+	height: 196px;
+	padding: 50px 35px 40px;
+}
+.foot1a{
+	width: 1115px;
+	height: 196px;
+}
+.foot1a_1{
+	width: 268px;
+	height: 110px;
+	float: left;
+}
+.foot1a_1 img{
+	width: 67px;
+	height: 20px;
+	margin-bottom: 24px;
+}
+.foot1a_1 p{
+	width: 268px;
+	height: 60px;
+	font-size: 13px;
+	color: #3d3d3d;
+}
+.foot1a_2{
+	width: 712px;
+	height: 196px;
+	float: left;
+}
+.foot1a_2 a{
+	text-decoration: none;
+}
+.foot1a a{
+	display: block;
+	color: #3d3d3d;
+	height: 30px;
+}
+.foot2{
+	width: 69px;
+	height: 196px;
+	padding: 0px 43px;
+	color: #3d3d3d;
+	float: left;
+	font-size: 13px;
+}
+.foot2 a:first-child{
+	font-size: 15px;
+}
+.foot3{
+	width: 92px;
+	height: 196px;
+	padding: 0px 43px;
+	color: #3d3d3d;
+	float: left;
+	font-size: 13px;
+}
+.foot3 a:first-child{
+	font-size: 15px;
+}
+.foot4{
+	width: 97px;
+	height: 106px;
+	padding: 0px 43px;
+	color: #3d3d3d;
+	float: left;
+	font-size: 13px;
+}
+.foot4 a:first-child{
+	font-size: 15px;
+}
+.foot5{
+	width: 134px;
+	height: 80px;
+	color: #3d3d3d;
+	float: right;
+	text-align: center;
+}
+.foot5 a{
+	width: 134px;
+	height: 20px;
+}
+.foot5a{
+	width: 134px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+.foot5a p{
+	width: 82px;
+	height: 40px;
+	border: 1px solid gray;
+	line-height: 40px;
+	float: left;
+}
+.foot5 span{
+    width: 50px;
+    height: 42px;
+	float: right;
+	background-color: #333333;
+	color: white;
+}
+.foot5 span:hover{
+	background-color:white ;
+	color: #333333;
+}
