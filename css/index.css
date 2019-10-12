@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	background-color:  #d5d5d5;
+}
 header{
 	width:100%;
 	height: 61px;
@@ -684,4 +687,61 @@ nav{
 
 #VX:hover{
    box-shadow: 1px  2px  5px  6px  #888888  
+}
+
+.sou{
+	width: 728px;
+	height: 186px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	display: none;
+	background-color: pink;
+}
+.sou1{
+    width: 728px;
+	height: 55px;
+	font-size: 18px;
+	padding: 26px 24px 5px;
+}
+.sou2{
+    width: 728px;
+	height: 79px;
+	padding: 0px 24px 24px;
+}
+.sou2a{
+	width:680px;
+	height: 50px;
+	padding: 15px;
+	margin-top: 5px;
+}
+.sou3{
+    width: 728px;
+	height: 52px;
+	padding: 0px 20px ;
+}
+#sou3a1{
+	width: 64px;
+	height: 36px;
+	font-size: 14px;
+	padding: 0px 16px;
+	float: right;
+	border: none;
+	background-color: pink;
+	outline: none;
+
+}
+#sou3a2{
+	width: 64px;
+	height: 36px;
+	font-size: 14px;
+	margin-left: 8px;
+	padding: 0px 16px;
+	float: right;
+	border: none;
+	background-color: pink;
+	outline: none;
 }
