@@ -52,7 +52,7 @@ header{
 #ul2{
 	width: 243px;
 	height: 61px;
-	float: left;
+	float: right;
 	list-style: none;
 	margin-bottom:0;
 }
@@ -150,7 +150,7 @@ header{
 }
 .denglu1 span{
 	display: block;
-	width: 84px;
+	width: 120px;
 	height: 20px;
 	font-size: 12px;
 	color: #616161;
@@ -182,17 +182,18 @@ header{
 	height: 25px;
 }
 .foot{
-	width:100%;
+	width:88%;
 	height: 286px;
 	padding: 0px 81px;
 }
 .foot1{
-	width: 1117px;
+	width: 100%;
 	height: 196px;
 	padding: 50px 35px 40px;
+	margin: 0 auto;
 }
 .foot1a{
-	width: 1115px;
+	width: 99%;
 	height: 196px;
 }
 .foot1a_1{

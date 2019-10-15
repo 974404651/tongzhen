@@ -17,6 +17,12 @@ gulp.task("watchall", async ()=>{
     	gulp.src("sass/**/*")
     	.pipe(sass())
     	.pipe(gulp.dest("D:\\phpStudy\\WWW\\tongzhen1\\css"));
+	});
+	//监听js文件
+    gulp.watch("js/**/*",async ()=>{
+    	gulp.src("js/**/*")
+    	.pipe(sass())
+    	.pipe(gulp.dest("D:\\phpStudy\\WWW\\tongzhen1\\js"));
     });
 
 });

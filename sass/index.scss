@@ -52,7 +52,7 @@ header{
 #ul2{
 	width: 243px;
 	height: 61px;
-	float: left;
+	float: right;
 	list-style: none;
 	margin-bottom:0;
 }
@@ -83,9 +83,8 @@ nav{
 }
 #box1{
 	height: 636px;
-	margin-left:114px;
-	margin-right: 114px;
-	padding: 66px 33px 0px 0px ;
+	margin:0 auto;
+	padding: 66px 0px 0px 0px ;
 
 }
 #box2{
@@ -111,7 +110,7 @@ nav{
 #box3{
 	width: 1060px;
 	height:460px;
-	margin-left:-10px;
+	margin:0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -154,7 +153,7 @@ nav{
 #tong1{
     width: 1040px;
     height: 940px;
-    margin:0px 114px 0px 114px;
+    margin:0 auto;
     padding: 50px 0;   
 }
 #tong1 img:hover{
@@ -164,7 +163,6 @@ nav{
 #tong1A{
 	width: 1040px;
 	height: 44px;
-	margin:10px 0px 20px;
 	text-align: center ;
 	margin:0 auto;
 }
@@ -312,6 +310,9 @@ nav{
 	height: 505px;
 	padding: 67px 0px 13px;
 }
+#chuangyi img{
+	width: 100%;
+}
 #chuang{
 	height: 44px;
 	margin:10px 0px 20px;
@@ -323,6 +324,7 @@ nav{
 	font-size: 21px;
 	line-height: 44px;	
 }
+
 #chuang1{
 	height: 557px;
 	padding: 0px 40px;
@@ -369,6 +371,9 @@ nav{
 	height: 505px;
 	padding: 67px 0px 13px;
 }
+#xinyi img{
+	width: 100%;
+}
 #xin{
 	height: 44px;
 	margin:10px 0px 20px;
@@ -391,6 +396,7 @@ nav{
 #xin3{
 	width: 1303px;
 	height: 535px;
+	margin: 0 auto;
 }
 .xin3a{
 	width: 434px;
@@ -405,6 +411,9 @@ nav{
 #xingzuo{
 	height: 505px;
 	padding: 67px 0px 13px;
+}
+#xingzuo img{
+	width: 100%;
 }
 #xing{
 	height: 44px;
@@ -517,27 +526,23 @@ nav{
 	font-size: 12px;
 	overflow: hidden;
 }
-.guanyu{
-	width:1349px;
+#guanyu{
+	width:100%;
 	height: 431px;
 	padding: 81px 0px 0px;
 }
-.guanyu img{
-	width: 742px;
+#guanyu img{
+	width: 55%;
 	height: 352px;
 	float: left;
 }
-.guanyu1{
-	width:607px;
-	height: 350px;
-	float: right;
-}
 .guan_1{
-	width: 425px;
+	width: 43%;
 	height: 273px;
 	padding:20px 0px;
 	color: #1c1c1c;
 	margin: 0 auto;
+	float: right;
 }
 .guan_1 h2{
 	width: 425px;
@@ -551,17 +556,23 @@ nav{
 	z-index: 4;
 }
 .foot{
-	width:1349px;
+	width:100%;
 	height: 286px;
 	padding: 0px 81px;
 }
+.foot a{
+	white-space: nowrap;
+}
 .foot1{
-	width: 1187px;
+	width: 98%;
 	height: 286px;
 	padding: 50px 35px 40px;
+	margin: 0 auto;
+	// display: flex;
+	// justify-content: space-between;
 }
 .foot1a{
-	width: 1115px;
+	width: 98%;
 	height: 196px;
 }
 .foot1a_1{
@@ -581,8 +592,6 @@ nav{
 	color: #3d3d3d;
 }
 .foot1a_2{
-	width: 712px;
-	height: 196px;
 	float: left;
 }
 .foot2{
@@ -622,7 +631,7 @@ nav{
 	width: 134px;
 	height: 80px;
 	color: #3d3d3d;
-	float: right;
+	float: left;
 	text-align: center;
 }
 .foot5 a{

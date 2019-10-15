@@ -126,18 +126,23 @@ header{
 
 
 .foot{
-	width:100%;
+	width:88%;
 	height: 286px;
 	padding: 0px 81px;
 }
 .foot1{
-	width: 1117px;
+	width: 100%;
 	height: 196px;
 	padding: 50px 35px 40px;
+	margin: 0 auto;
+	background-color: yellow;
 }
 .foot1a{
-	width: 1115px;
-	height: 196px;
+	// height: 196px;
+	margin: 0 auto;
+	background-color: red;
+	display: flex;
+	justify-content: space-around;
 }
 .foot1a_1{
 	width: 268px;
@@ -156,12 +161,13 @@ header{
 	color: #3d3d3d;
 }
 .foot1a_2{
-	width: 712px;
+	// width: 712px;
 	height: 196px;
 	float: left;
 }
 .foot1a_2 a{
 	text-decoration: none;
+	white-space: nowrap;
 }
 .foot1a a{
 	display: block;
@@ -205,7 +211,7 @@ header{
 	width: 134px;
 	height: 80px;
 	color: #3d3d3d;
-	float: right;
+	float: left;
 	text-align: center;
 }
 .foot5 a{
